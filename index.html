@@ -15,13 +15,13 @@
                     <button type="button" class="btn btn-primary" id="loadButton">Загрузить Файл</button>
                 </div>
                 <div class="col my-1 form-floating">
-                    <select class="form-select" id="floatingSelect">
-                        <option selected></option>
+                    <select class="form-select" id="sortingSelect">
+                        <option selected value="0"></option>
                         <option value="1">По возрастанию</option>
                         <option value="2">По убыванию</option>
                         <option value="3">Развернуть список</option>
                     </select>
-                    <label for="floatingSelect">Тип сортировки</label>
+                    <label for="sortingSelect">Тип сортировки</label>
                 </div>
                 <div class="col my-1">
                     <button type="button" class="btn btn-primary" id="sortButton">Отсортировать</button>
@@ -32,18 +32,11 @@
             <div class="row my-1">
                 <div class="col my-1">
                     <h3>Изначальный список список</h3>
-                    <ul class="list-group" id="list1">
-                    </ul>
+                    <ul class="list-group" id="list1"></ul>
                 </div>
                 <div class="col my-1">
                     <h3>Измененный список</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
-                    </ul>
+                    <ul class="list-group" id="list2"></ul>
                 </div>
             </div>
         </div>
